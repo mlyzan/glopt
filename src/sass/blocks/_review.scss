@@ -1,0 +1,91 @@
+.review{
+    text-align: center;
+    h2{
+        color: #2e2e2e;
+        font-size: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 51px;
+    }
+    hr{
+        width: 148px;
+        height: 1px;
+        background-color: $main-color;
+        border-bottom: none;
+        border-top: none;
+        margin-top: 20px;
+    }
+    
+    &__descr{
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-top: 17px;
+    }
+    &__block{
+        width: 601px;
+        margin: 0 auto;
+        &__img{
+            position: relative;
+            margin-top: 31px;
+        }
+        .right{
+            position: relative;
+        }
+        .left{
+            position: relative;
+        }
+        .left:before, .left:after{
+            position: absolute;
+            top: 58px;
+            border-right: 2px solid $main-color;
+            content: '';
+            display: block;
+            height: 28px;
+            width: 2;
+            transform: skewX(35deg);
+            left: 185px;
+        }
+        .left:after{
+            position: absolute;
+            margin-top: -1px;
+            transform: skewX(-35deg);
+            top: 31px;
+            left: 185px;
+        }
+        .right:before, .right:after{
+            position: absolute;
+            top: -83px;
+            border-right: 2px solid $main-color;
+            content: '';
+            display: block;
+            height: 28px;
+            width: 2;
+            transform: skewX(35deg);
+            left: 416px;
+        }
+        .right:after{
+            position: absolute;
+            margin-top: -1px;
+            transform: skewX(-35deg);
+            top: -54px;
+            left: 416px;
+        }
+        &__name{
+            color: #2e2e2e;
+            font-size: 18px;
+            font-weight: 700;
+            margin-top: 19px;
+        }
+        &__descr{
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    }
+}

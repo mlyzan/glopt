@@ -1,0 +1,54 @@
+.our-work{
+    width: auto;
+    min-height: 615px;
+    h2{
+        color: #2e2e2e;
+        font-size: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 51px;
+    }
+    hr{
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+    border-bottom: none;
+    border-top: none;
+    }
+    &__descr{
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+    }
+    &__blocks{
+        margin-top: 36px;
+        display: flex;
+        justify-content: space-between;
+        align-content: flex-start;
+        &__block{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            &__descr{
+                margin-top: 27px;
+                color: #3a3a3a;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 22px;
+                width: 359px;
+                span{
+                    display: block;
+                    color: $main-color;
+                    font-size: 18px;
+                    font-weight: 700;
+                    text-align: center;
+                    margin-bottom: -15px;
+                } 
+            }
+        }
+    }
+
+}

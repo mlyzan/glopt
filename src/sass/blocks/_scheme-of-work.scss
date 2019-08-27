@@ -1,0 +1,34 @@
+.scheme-of-work{
+    min-height: 454px;
+    background-color: #f3f3f3;
+    padding-bottom: 46px;
+    &__blocks{
+        display: flex;
+        justify-content: center;
+    }
+    h2{
+        color: #2e2e2e;
+        font-size: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 51px;
+    }
+    &__block{
+        text-align: center;
+        width: 250px;
+        margin-top: 33px;
+        &__descr{
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+            margin-top: 12px;
+            span{
+                color: $main-color;
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+    }
+}

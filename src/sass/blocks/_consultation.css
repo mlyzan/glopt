@@ -1,0 +1,45 @@
+.consultation h2 {
+  color: #3a3a3a;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 56px;
+}
+
+.consultation__form {
+  position: relative;
+  width: 1140px;
+  height: 166px;
+  border: 2px solid #898989;
+  margin-top: 71px;
+}
+
+.consultation__form__icon {
+  left: 50%;
+  border: 2px solid img;
+  border-position: absolute;
+}
+
+.consultation__form .input {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.consultation__form .input input {
+  width: 268px;
+  height: 44px;
+  padding: 16px 30px;
+  font-size: 12px;
+  border-radius: 20px;
+  border: 1px solid #898989;
+  margin-right: 4px;
+}
+
+.consultation__form button {
+  position: absolute;
+}
