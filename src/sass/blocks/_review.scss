@@ -1,5 +1,6 @@
 .review{
     text-align: center;
+    position: relative;
     h2{
         color: #2e2e2e;
         font-size: 26px;
@@ -27,52 +28,12 @@
     &__block{
         width: 601px;
         margin: 0 auto;
-        &__img{
+        .review_images{
             position: relative;
             margin-top: 31px;
+            border-radius: 100%;
         }
-        .right{
-            position: relative;
-        }
-        .left{
-            position: relative;
-        }
-        .left:before, .left:after{
-            position: absolute;
-            top: 58px;
-            border-right: 2px solid $main-color;
-            content: '';
-            display: block;
-            height: 28px;
-            width: 2;
-            transform: skewX(35deg);
-            left: 185px;
-        }
-        .left:after{
-            position: absolute;
-            margin-top: -1px;
-            transform: skewX(-35deg);
-            top: 31px;
-            left: 185px;
-        }
-        .right:before, .right:after{
-            position: absolute;
-            top: -83px;
-            border-right: 2px solid $main-color;
-            content: '';
-            display: block;
-            height: 28px;
-            width: 2;
-            transform: skewX(35deg);
-            left: 416px;
-        }
-        .right:after{
-            position: absolute;
-            margin-top: -1px;
-            transform: skewX(-35deg);
-            top: -54px;
-            left: 416px;
-        }
+        
         &__name{
             color: #2e2e2e;
             font-size: 18px;

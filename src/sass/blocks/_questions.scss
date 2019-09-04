@@ -1,11 +1,12 @@
 .questions{
     width: auto;
-    height: 441px;
+    min-height: 441px;
     background: url("../img/plain-bg.png") center center/cover no-repeat;
     margin-top: 65px;
+    margin-bottom: 10px;
     &__form{
         width: 896px;
-        height: 297px;
+        min-height: 297px;
         margin: 0 auto;
         padding-top: 62px;
         &__black-fon{
@@ -30,7 +31,7 @@
         }
         &__white-fon{
         width: 896px;
-        height: 229px;
+        min-height: 229px;
         background: rgba(255, 255, 255, 0.7);
         text-align: center;
         padding-top: 18px;
@@ -48,7 +49,7 @@
         .form__message{
             width: 813px;
             height: 71px;
-            max-width: 813px;
+            // max-width: 813px;
             max-height: 71px;
             border: 1px solid rgba(0, 0, 0, 0.21);
             background-color: #ffffff;

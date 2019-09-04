@@ -1,0 +1,274 @@
+@media ( max-width: 1199px){
+    .header {
+        .nav{
+            margin: 0 auto;
+        }
+        &__menu{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .buttons_cal{
+                display: block;
+                margin: 0 auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+        &__contacts{
+            width: 100%;
+            display: block;
+            text-align: center;
+            &__quest{
+                display: inline;
+                text-align: center;
+            }
+            &__tel{
+                display: block;
+                text-align: center;
+            }
+        }
+        &__line{
+            hr.first{
+                width: 30%;
+            }
+            hr.second{
+                width: 30%;
+            }
+        }
+        &__block{
+            justify-content: center;
+            flex-wrap: wrap;
+            &__icon{
+                margin-top: 20px;
+                margin-right: 20px;
+            }
+           
+        }
+    }
+    
+    .our-work__blocks{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 20px 0;
+        &__block{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            img{
+                margin-top: 20px;
+            }
+        }
+    }
+    .shipped__blocks{
+        display: flex;
+        justify-content: center;
+        &__block{
+            margin-top: 20px;
+        }
+    }
+    .scheme-of-work__blocks{
+        flex-wrap: wrap;
+    }
+    .footer__contact{
+        a{
+            font-size: 15px;
+        }
+    }
+}
+@media ( max-width: 991px){
+    .header__line hr.first {
+        width: 27%;
+    }
+    .header__line hr.second {
+        width: 27%;
+    }
+    .header_logo-link{
+        display: block;
+        margin: 0 auto;
+    }
+    .header{
+        h1{
+            font-size: 50px;
+        }
+        &__sub{
+            font-size: 34px;
+        }
+    }
+    .shipped__blocks__block{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .consultation__form{
+        min-height: 266px;
+        button{
+            top: 243px;
+        }
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-bottom: 10px;
+        input{
+            margin-top: 10px;
+        }
+    }
+    .scheme-of-work__block{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .questions__form{
+        width: 100%;
+    }
+    .questions__form__white-fon{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        input{
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        
+    }
+    .form__message{
+        // width: 200px;
+        height: 300px;
+        max-width: 90%;
+        max-height: 300px;
+        margin: 0 auto;
+    }
+    .buttons_questions{
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px; 
+    }
+    .review__block {
+        width: 100%;
+    }
+}
+
+@media ( max-width: 767px){
+    .header{
+        position: relative;
+    }
+    .gamburger{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+        span{
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: #fff;
+            margin-bottom: 3px;
+            transition: .5s;
+        }
+        &_active{
+            display: flex;
+            span{
+                margin-right: 3px;
+                width: 3px;
+                height: 25px;
+                background-color: $main-color;
+            }
+        }
+    }
+    .nav{
+        position: fixed;
+        top: 0;
+        left: 0.0001%;
+        width: 50%;
+        height: 100vh;
+        background-color: $main-color;
+        display: none;
+        z-index: 10;
+        .header__links{
+            display: block;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 400;
+            border-right: none;
+            line-height: 50px;
+        }
+    }
+    .header h1 {
+        font-size: 38px;
+    }
+    .header__sub {
+        font-size: 24px;
+    }
+    .header__line hr.first {
+        width: 20%;
+    }
+    .header__line hr.second {
+        width: 20%;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        &__contact{
+            align-items: center;
+        }
+    }
+    .header__links:focus, .header__links:hover{
+        color: #fff;
+        font-size: 18px;
+    }
+
+}
+@media ( max-width: 575px){
+    .header h1 {
+        font-size: 28px;
+    }
+    .header__sub {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .header__line{
+        display: none;
+    }
+    .advantages h2 {
+        font-size: 22px;
+    }
+    .our-work h2 {
+        font-size: 22px;
+    }
+    .our-work__descr {
+        font-size: 16px;
+    }
+    .managers h2 {
+        font-size: 22px;
+    }
+    .managers__descr {
+        font-size: 16px;
+    }
+    .scheme-of-work h2 {
+        font-size: 24px;
+    }
+    .review h2 {
+        font-size: 22px;
+    }
+    .review__descr {
+        font-size: 18px;
+    }
+    .our-work__blocks__block__descr {
+        width: 95%;
+        text-align: center;
+    }
+    .our-work__blocks__block img {
+        width: 95%;
+    }
+    .agent__descr {
+        width: 95%;
+    }
+}
